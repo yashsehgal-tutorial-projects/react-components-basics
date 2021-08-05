@@ -1,0 +1,12 @@
+button.primary-button,
+input[type=button].primary-button {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+  background-color: var(--color-blue);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=buttons.css.map */

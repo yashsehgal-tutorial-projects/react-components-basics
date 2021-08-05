@@ -1,0 +1,13 @@
+input, select, textarea {
+  padding: 0.6em;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  border: 0.2px solid hsl(0, 0%, 80%);
+  border-radius: 4px !important;
+  &:focus {
+    outline: none !important;
+    background-color: rgba(154, 154, 255, 0.225);
+    border-color: gray;
+  }
+}
