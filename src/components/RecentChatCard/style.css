@@ -1,0 +1,41 @@
+div.recent-chat-card {
+  width: 100%;
+  padding: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  border-bottom: 0.2px solid var(--color-light-gray);
+}
+
+div.recent-chat-card > img.user-profile-display {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+div.recent-chat-card > div.recent-chat-content-wrapper {
+  width: 100%;
+}
+
+div.recent-chat-card > div.recent-chat-content-wrapper > div.recent-chat-content-wrapper-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.recent-chat-card > div.recent-chat-content-wrapper > div.recent-chat-content-wrapper-footer > p.recent-chat-time-tag {
+  color: gray;
+  margin-left: auto;
+}
+
+div.recent-chat-card:hover {
+  background-color: var(--color-light-gray);
+}
+/*# sourceMappingURL=style.css.map */

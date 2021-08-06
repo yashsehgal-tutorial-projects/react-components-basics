@@ -1,0 +1,8 @@
+div.home-view {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

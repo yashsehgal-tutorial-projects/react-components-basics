@@ -16,17 +16,14 @@ p, b, i, u, font, text, strong, sup, sub, a, a:active, a:visited, span {
 }
 
 h1, h2 {
-  margin-bottom: 12px;
   font-weight: 800;
 }
 
 h3, h4 {
-  margin-bottom: 8px;
   font-weight: 700;
 }
 
 h5, h6 {
-  margin-bottom: 4px;
   font-weight: 600;
 }
 
@@ -40,5 +37,9 @@ h5, h6 {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   font-family: inherit;
+}
+
+.page-title {
+  margin: 1em;
 }
 /*# sourceMappingURL=typography.css.map */

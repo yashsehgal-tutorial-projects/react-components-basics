@@ -1,0 +1,17 @@
+div.header {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  > div.action-icon-container {
+    margin-left: auto;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 16px;
+    > i {
+      font-size: 18px;
+    }
+  }
+}

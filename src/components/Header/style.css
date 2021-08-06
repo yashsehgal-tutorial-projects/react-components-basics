@@ -1,0 +1,30 @@
+div.header {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.header > div.action-icon-container {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+div.header > div.action-icon-container > i {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

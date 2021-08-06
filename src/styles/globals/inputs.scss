@@ -1,4 +1,4 @@
-input, select, textarea {
+select, textarea {
   padding: 0.6em;
   color: inherit;
   font-size: inherit;
@@ -9,5 +9,16 @@ input, select, textarea {
     outline: none !important;
     background-color: rgba(154, 154, 255, 0.225);
     border-color: gray;
+  }
+}
+
+input, 
+.input {
+  border: none !important;
+  color: inherit;
+  font-family: inherit;
+  padding: 0.4em;
+  &:focus {
+    outline: none !important;
   }
 }

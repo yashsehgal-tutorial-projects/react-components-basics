@@ -1,4 +1,4 @@
-input, select, textarea {
+select, textarea {
   padding: 0.6em;
   color: inherit;
   font-size: inherit;
@@ -7,9 +7,22 @@ input, select, textarea {
   border-radius: 4px !important;
 }
 
-input:focus, select:focus, textarea:focus {
+select:focus, textarea:focus {
   outline: none !important;
   background-color: rgba(154, 154, 255, 0.225);
   border-color: gray;
+}
+
+input,
+.input {
+  border: none !important;
+  color: inherit;
+  font-family: inherit;
+  padding: 0.4em;
+}
+
+input:focus,
+.input:focus {
+  outline: none !important;
 }
 /*# sourceMappingURL=inputs.css.map */

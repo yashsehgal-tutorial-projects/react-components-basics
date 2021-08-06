@@ -1,0 +1,51 @@
+div.search-people-container {
+  padding: 0.4em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  background-color: var(--color-blue);
+}
+
+div.search-people-container > div.search-input-wrapper {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 12px;
+  border-radius: 100px;
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+}
+
+div.search-people-container > div.search-input-wrapper > input#search-people-input {
+  width: 90%;
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+}
+
+div.search-people-container > div.search-input-wrapper > input#search-people-input::-webkit-input-placeholder {
+  color: var(--color-white);
+}
+
+div.search-people-container > div.search-input-wrapper > input#search-people-input:-ms-input-placeholder {
+  color: var(--color-white);
+}
+
+div.search-people-container > div.search-input-wrapper > input#search-people-input::-ms-input-placeholder {
+  color: var(--color-white);
+}
+
+div.search-people-container > div.search-input-wrapper > input#search-people-input::placeholder {
+  color: var(--color-white);
+}
+/*# sourceMappingURL=style.css.map */

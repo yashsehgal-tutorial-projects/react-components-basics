@@ -1,0 +1,27 @@
+div.recent-chat-card {
+  width: 100%;
+  padding: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 0.2px solid var(--color-light-gray);
+  > img.user-profile-display {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+  }
+  > div.recent-chat-content-wrapper {
+    width: 100%;
+    > div.recent-chat-content-wrapper-footer {
+      display: flex;
+      align-items: center;
+      > p.recent-chat-time-tag {
+        color: gray;
+        margin-left: auto;
+      }
+    }
+  }
+  &:hover {
+    background-color: var(--color-light-gray);
+  }
+}

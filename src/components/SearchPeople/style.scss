@@ -1,0 +1,29 @@
+div.search-people-container {
+  padding: 0.4em;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: var(--color-blue);
+  > div.search-input-wrapper {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    display: flex;
+    align-items: center;
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 12px;
+    border-radius: 100px;
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+    > input#search-people-input {
+      width: 90%;
+      background-color: var(--color-light-blue);
+      color: var(--color-white);
+      &::placeholder {
+        color: var(--color-white);
+      }
+    }
+  }
+}
